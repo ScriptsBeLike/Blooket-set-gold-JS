@@ -16,7 +16,7 @@ javascript: (async () => {
             if (window.location.pathname != '/play/gold') {
                 alert('You must be in a gold quest game!');
             } else {
-                let gold = Number(parseFloat(prompt('How much gold do you want you greedy pig?')));
+                let gold = Number(parseFloat(prompt('How much gold do you want, you greedy pig?')));
                 reactHandler().stateNode.setState({ gold2: gold, gold });
 
                 alert('Gold added!, also be sure to subscribe to RobloxEvonHacker! and show more support on GitHub');
